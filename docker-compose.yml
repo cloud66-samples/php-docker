@@ -1,0 +1,7 @@
+version: '2'
+services:
+  laravel:
+    build: .
+    ports:
+     - "4000:80"
+     - "8000:8000"
