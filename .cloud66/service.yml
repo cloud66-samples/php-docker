@@ -1,0 +1,7 @@
+services:
+  laravel:
+    git_repo: http://github.com/cloud66-samples/php-docker.git
+    git_branch: master
+    deploy_command: php artisan migrate
+databases:
+  - mysql
